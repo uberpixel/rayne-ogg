@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D55891FA1985E1580044DEF7 /* ROGG_Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D55891F91985E1580044DEF7 /* ROGG_Main.cpp */; };
+		D55892021985E1E80044DEF7 /* ROGGResourceLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D55892001985E1E80044DEF7 /* ROGGResourceLoader.cpp */; };
+		D55892031985E1E80044DEF7 /* ROGGResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = D55892011985E1E80044DEF7 /* ROGGResourceLoader.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D55891F51985E1580044DEF7 /* librayne-ogg.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "librayne-ogg.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55891F91985E1580044DEF7 /* ROGG_Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ROGG_Main.cpp; path = Classes/ROGG_Main.cpp; sourceTree = "<group>"; };
+		D55892001985E1E80044DEF7 /* ROGGResourceLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ROGGResourceLoader.cpp; path = Classes/ROGGResourceLoader.cpp; sourceTree = "<group>"; };
+		D55892011985E1E80044DEF7 /* ROGGResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ROGGResourceLoader.h; path = Classes/ROGGResourceLoader.h; sourceTree = "<group>"; };
+		D55CDED4198AB05B00B54A27 /* stb_vorbis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stb_vorbis.c; path = Classes/stb_vorbis.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D55891F21985E1580044DEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D55891EC1985E1580044DEF7 = {
+			isa = PBXGroup;
+			children = (
+				D55891F71985E1580044DEF7 /* rayne-ogg */,
+				D55891F61985E1580044DEF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D55891F61985E1580044DEF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D55891F51985E1580044DEF7 /* librayne-ogg.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D55891F71985E1580044DEF7 /* rayne-ogg */ = {
+			isa = PBXGroup;
+			children = (
+				D55891F81985E1580044DEF7 /* Classes */,
+			);
+			path = "rayne-ogg";
+			sourceTree = "<group>";
+		};
+		D55891F81985E1580044DEF7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D55CDED4198AB05B00B54A27 /* stb_vorbis.c */,
+				D55892001985E1E80044DEF7 /* ROGGResourceLoader.cpp */,
+				D55892011985E1E80044DEF7 /* ROGGResourceLoader.h */,
+				D55891F91985E1580044DEF7 /* ROGG_Main.cpp */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D55891F31985E1580044DEF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55892031985E1E80044DEF7 /* ROGGResourceLoader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D55891F41985E1580044DEF7 /* rayne-ogg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55891FD1985E1580044DEF7 /* Build configuration list for PBXNativeTarget "rayne-ogg" */;
+			buildPhases = (
+				D55891F11985E1580044DEF7 /* Sources */,
+				D55891F21985E1580044DEF7 /* Frameworks */,
+				D55891F31985E1580044DEF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rayne-ogg";
+			productName = "rayne-ogg";
+			productReference = D55891F51985E1580044DEF7 /* librayne-ogg.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D55891ED1985E1580044DEF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Überpixel";
+				TargetAttributes = {
+					D55891F41985E1580044DEF7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = D55891F01985E1580044DEF7 /* Build configuration list for PBXProject "rayne-ogg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D55891EC1985E1580044DEF7;
+			productRefGroup = D55891F61985E1580044DEF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D55891F41985E1580044DEF7 /* rayne-ogg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D55891F11985E1580044DEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55891FA1985E1580044DEF7 /* ROGG_Main.cpp in Sources */,
+				D55892021985E1E80044DEF7 /* ROGGResourceLoader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D55891FB1985E1580044DEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		D55891FC1985E1580044DEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		D55891FE1985E1580044DEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"RN_BUILD_MODULE=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include/rayne/,
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/rayne-openal-cpauktyhdjwyfodskukzbqvvxrlr/Build/Products/Debug/usr/local/include\"",
+				);
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib/,
+					"/Users/Slin/Documents/dev/projects/Rayne/Modules/rayne-openal/Vendor",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/rayne-openal-cpauktyhdjwyfodskukzbqvvxrlr/Build/Products/Debug",
+				);
+				OTHER_LDFLAGS = "-lRayne";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D55891FF1985E1580044DEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"NDEBUG=1",
+					"RN_BUILD_MODULE=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include/rayne/,
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/rayne-openal-cpauktyhdjwyfodskukzbqvvxrlr/Build/Products/Debug/usr/local/include\"",
+				);
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib/,
+					"/Users/Slin/Documents/dev/projects/Rayne/Modules/rayne-openal/Vendor",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/rayne-openal-cpauktyhdjwyfodskukzbqvvxrlr/Build/Products/Debug",
+				);
+				OTHER_LDFLAGS = "-lRayne";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D55891F01985E1580044DEF7 /* Build configuration list for PBXProject "rayne-ogg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55891FB1985E1580044DEF7 /* Debug */,
+				D55891FC1985E1580044DEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55891FD1985E1580044DEF7 /* Build configuration list for PBXNativeTarget "rayne-ogg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55891FE1985E1580044DEF7 /* Debug */,
+				D55891FF1985E1580044DEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D55891ED1985E1580044DEF7 /* Project object */;
+}
