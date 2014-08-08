@@ -46,6 +46,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>$(ProgramFiles)\Rayne\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProgramFiles)\Rayne\$(Configuration);$(LibraryPath)</LibraryPath>
+    <TargetName>lib$(ProjectName)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -59,6 +60,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>Rayne.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(TargetPath)" "$(ProjectDir)..\bin\$(ProjectName)\" /Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -76,6 +80,9 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>Rayne.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(TargetPath)" "$(ProjectDir)..\bin\$(ProjectName)\" /Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="rayne-ogg\Classes\ROGGResourceLoader.cpp" />
