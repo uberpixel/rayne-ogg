@@ -16,13 +16,12 @@
 //
 
 #include "ROGGResourceLoader.h"
-#include <RALAudioResource.h>
 
 namespace RN
 {
 	namespace ogg
 	{
-		#include "stb_vorbis.c"
+		#include "stb_vorbis.h"
 		
 		RNDefineMeta(OggResourceLoader, RN::ResourceLoader)
 			
