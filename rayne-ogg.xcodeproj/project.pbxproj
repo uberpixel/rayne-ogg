@@ -17,7 +17,6 @@
 		D55891F91985E1580044DEF7 /* ROGG_Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ROGG_Main.cpp; path = Classes/ROGG_Main.cpp; sourceTree = "<group>"; };
 		D55892001985E1E80044DEF7 /* ROGGResourceLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ROGGResourceLoader.cpp; path = Classes/ROGGResourceLoader.cpp; sourceTree = "<group>"; };
 		D55892011985E1E80044DEF7 /* ROGGResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ROGGResourceLoader.h; path = Classes/ROGGResourceLoader.h; sourceTree = "<group>"; };
-		D55CDED4198AB05B00B54A27 /* stb_vorbis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stb_vorbis.c; path = Classes/stb_vorbis.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +57,6 @@
 		D55891F81985E1580044DEF7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D55CDED4198AB05B00B54A27 /* stb_vorbis.c */,
 				D55892001985E1E80044DEF7 /* ROGGResourceLoader.cpp */,
 				D55892011985E1E80044DEF7 /* ROGGResourceLoader.h */,
 				D55891F91985E1580044DEF7 /* ROGG_Main.cpp */,
